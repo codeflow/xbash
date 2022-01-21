@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#styles for bash
+ITALIC='\033[3m';
+BOLD='\033[1m';
+UNDERLINE='\033[4m';
+NO_STYLE='\033[0m';

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+info() {
+	echo -e "${GREEN}${BOLD}[INFO] $1 ${WHITE}${NO_STYLE}";
+}
+
+warn() {
+	echo -e "${YELLOW}${BOLD}$1 ${WHITE}${NO_STYLE}";
+}
+
+error() {
+	echo -e "${RED}${BOLD}$1 ${WHITE}${NO_STYLE}";
+}
